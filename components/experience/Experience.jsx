@@ -18,12 +18,12 @@ const Experience = () => {
         <div className="exp__container container grid">
             <div className="exp__content">
                 <div>
-                    <i className="uil uil-web-grid exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer <br /> Trainee </h3>
+                    <i className="uil uil-cloud exp__icon"></i>
+                    <h3 className="exp__title">Cloud <br /> Solution <br /> Engineer </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">ATGSys</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -33,7 +33,7 @@ const Experience = () => {
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
                         <h3 className="exp__modal-title">Cloud Solution Engineer <br /> May 24 - Currently Working🧑🏻‍💻</h3>
-                        <p className="exp__modal-description">Working currently as a Software Developer Trainee for full-time at EXA AG.
+                        <p className="exp__modal-description">Working currently as a Cloud Solution Engineer for full-time at ATGSys.
                             Providing quality work to clients and company.
                         </p>
 
@@ -60,12 +60,12 @@ const Experience = () => {
 
             <div className="exp__content">
                 <div>
-                    <i className="uil uil-arrow exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer <br/> Intern</h3>
+                    <i className="uil uil-wall exp__icon"></i>
+                    <h3 className="exp__title">Junior <br /> Network <br/> Security</h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">Myanmar Oriental Bank</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -75,7 +75,7 @@ const Experience = () => {
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
                         <h3 className="exp__modal-title">Software Developer Intern <br /> Feb'24 - May'24</h3>
-                        <p className="exp__modal-description">Worked at EXA AG as Intern for 5 months.
+                        <p className="exp__modal-description">Worked at Myanmar Oriental Bank as Intern for 5 months.
                             Providing quality work to clients and company.
                         </p>
 

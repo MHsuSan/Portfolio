@@ -9,7 +9,7 @@ const Frontend = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <i className='bx bxl-html5'></i>
+                    <i className='bx bxl-aws'></i>
 
                     <div>
                         <h3 className="skills__name">AWS</h3>
@@ -18,11 +18,11 @@ const Frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className='bx bxl-css3' ></i>
+                    <i className='bx bxl-github' ></i>
 
                     <div>
-                        <h3 className="skills__name">CSS</h3>
-                        <span className="skills__level">Advanced</span>
+                        <h3 className="skills__name">GitHub</h3>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 

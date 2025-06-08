@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./about.css";
-import AboutImg from "../../src/assets/about-pic.jpg";
-import CV from "../../src/assets/Soumyajit's New Resume.pdf";
+import AboutImg from "../../src/assets/hsu.jpg";
+// import CV from "../../src/assets/Soumyajit's New Resume.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
           <div className="about__data">
             <Info />
 
-            <p className="about__description">Frontend Developer, I create web pages with UI / UX user interface, I create web pages with the skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.</p>
+            <p className="about__description">Cloud Solution Engineer, I create web pages with UI / UX user interface, I create web pages with the skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.</p>
 
             {/* <a download="" href={CV} className="button button--flex">Download CV 
               <svg
